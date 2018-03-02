@@ -1,0 +1,824 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="1.css"></link>
+    <script src="./index1.js" defer></script>
+</head>
+<body>
+    <header role="banner">
+        <section class="info">
+            <div>
+            <ul>
+                <li>Контакты</li>
+                <li>Магазин</li>
+                <li>О нас</li>
+                <li>Доставка</li>
+                <li>Оплата</li>
+                <li>Бонусная програма</li>
+            </ul>
+            <div class="lang">
+                <a href="/Ru">Рус</a>
+                <a href="/Ukr">Укр</a>
+            </div>
+            <label for="town">Ваш город:</label>
+            <select id="town">
+                <option>Киев</option>
+                <option>Харьков</option>
+            </select>
+            <ul class="registration">
+                <li><a class="log" href="/login">Вход</a></li>
+                <li><a href="/reg">Регистрация</a></li>
+            </ul>
+            </div>
+        </section>
+        <section class="logo"></section>
+        <nav role="navigation">
+            <input type="search" role="search" placeholder="Поиск по названию товара,коду, категории товара" class="search"/>
+            <select>
+                <option>8-067-399-66-78</option>
+                <option>Пункт 2</option>
+            </select>
+            <button type="button">Обратный звонок</button>
+            <div class="navig">
+                <p>Гараж</p>
+                <p>Избранное</p>
+                <p>Сравнение</p>
+                <p>Корзина</p>
+            </div>
+        </nav>
+        <section class="menu">
+            <ul>
+                <li class="catalog m">КАТАЛОГ ТОВАРОВ
+                    <ul>
+                        <li class="massels">Масла</li>
+                        <li class="parts">Запчасти</li>
+                        <li class="goods">Товары для авто</li>
+                    </ul></li
+                ><li class="shares m">АКЦИИ
+                    <ul>
+                        <li class="massels">Масла </li>
+                        <li class="parts">Запчасти</li>
+                        <li class="goods">Товары для авто</li>
+                    </ul>
+                </li
+                ><li class="tests m">СРАВНИТЕЛЬНЫЕ ТЕСТЫ
+                    <ul>
+                        <li class="massels">Масла</li>
+                        <li class="parts">Запчасти</li>
+                        <li class="goods">Товары для авто</li>
+                    </ul>
+                </li
+                ><li class="choose m">КАК ВЫБРАТЬ
+                    <ul>
+                        <li class="massels">Масла</li>
+                        <li class="parts">Запчасти</li>
+                        <li class="goods">Товары для авто</li>
+                    </ul>
+                </li
+                ><li class="news m">НОВОСТИ
+                    <ul>
+                        <li class="massels">Масла</li>
+                        <li class="parts">Запчасти</li>
+                        <li class="goods">Товары для авто</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </header>
+    <main role="main">
+        <div class="path"></div>
+        <artical class="main" role="article">
+            <section class="good">
+                <figure class="mPicture">
+                    <figurecaption>
+                        <h2>Моторное масло Птичка ты куда!</h2>
+                    </figurecaption>
+                <img src="./assets/img/large/Dynamic2Large.jpeg"  width="300" alt="" />
+                </figure>
+                <div class="staff">
+                <div class="rating">
+                    <input class="rating-gauge" type="range" min="0" max="5" readonly />
+
+                    <div class="rating-stars">
+                        <div class="rating-stars-placehold" >
+                            <span>1 </span>
+                            <span>2 </span>
+                            <span>3 </span>
+                            <span>4 </span>
+                            <span>5 </span>
+                        </div>
+                        <div class="rating-stars-slider">
+                            <span>1 </span>
+                            <span>2 </span>
+                            <span>3 </span>
+                            <span>4 </span>
+                            <span>5 </span>
+                        </div>
+                    </div>
+                </div>
+                    <p class="off">Нет в наличии</p>
+                    <a href="#comments" class="miniUrl">3 отзыва</a>
+                    <a href="#comments" class="miniUrl">4 вопроса</a>
+                    <p class="codeStuff">Код товара: 34500554645654</p>
+                </div>
+                <div class="card selected">
+                    <h3 class="price">453 грн</h3>
+                    <button type="button"><h4><b>Сообщить о поступлении</b></h4></button>
+                    <p class="description">
+                        <small>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa, ut?
+                        </small>
+                    </p>
+
+                    <div class="buttons">
+                    <button>Share</button>
+                    <button>Compare</button>
+                    </div>
+                    </div>
+                <div class="card selected">
+                    <figure>
+                        <figurecaption>
+                            <h4>Похожий товар</h4>
+                            <p class="is">В наличии</p>
+                        </figurecaption>
+                        <p><img src="./assets/img/300/Petronas.jpeg" alt="" width="200" height="200" /></p>
+                    </figure>
+                    <span>Название товара</span>
+                    <span><b>ЦЕНА: 500грн</b></span>
+                    <a href="#the_same">Показать похожие товары</a>
+                </div>
+            </section>
+            <section class="sliderSection section" id="the_same">
+                <h4 class="nameSection">Похожий товар</h4>
+                <a href="#" class="control_next">></a>
+                <a href="#" class="control_prev"><</a>
+                <div class="slider">
+                <div class="card">
+                    <figure>
+                        <figurecaption>
+                            <p>Код товара</p><p class="is">В наличии</p>
+                        </figurecaption>
+                    <img width="170"src="./assets/img/300/ShellHelix.jpg" alt="" />
+                    </figure>
+                    <span>Название товара</span>
+                    <h4>цена</h4>
+
+                </div>   <div class="card">
+                    <figure>
+                        <figurecaption>
+                            <p>Код товара</p><p class="is">В наличии</p>
+                        </figurecaption>
+                    <img width="170"src="./assets/img/300/Petronas.jpeg" alt="" />
+                    </figure>
+                    <span>Название товара</span>
+                    <h4>цена</h4>
+
+                </div>   <div class="card">
+                    <figure>
+                        <figurecaption>
+                            <p>Код товара</p><p class="is">В наличии</p>
+                        </figurecaption>
+                    <img width="170"src="./assets/img/300/lucoile.jpeg" alt="" />
+                    </figure>
+                    <span>Название товара</span>
+                    <h4>цена</h4>
+
+                </div>   <div class="card">
+                    <figure>
+                        <figurecaption>
+                            <p>Код товара</p><p class="is">В наличии</p>
+                        </figurecaption>
+                    <img width="170"src="./assets/img/300/15W-50.jpeg" alt="" />
+                    </figure>
+                    <span>Название товара</span>
+                    <h4>цена</h4>
+
+                </div>
+                <div class="card">
+                    <figure>
+                        <figurecaption>
+                            <p>Код товара</p><p class="is">В наличии</p>
+                        </figurecaption>
+                    <img width="170"src="./assets/img/300/XTC.jpeg" alt="" />
+                    </figure>
+                    <span>Название товара</span>
+                    <h4>цена</h4>
+
+                </div>
+                <div class="card">
+                    <figure>
+                        <figurecaption>
+                            <p>Код товара</p><p class="is">В наличии</p>
+                        </figurecaption>
+                    <img width="170"src="./assets/img/300/Mobil1.jpg" alt="" />
+                    </figure>
+                    <span>Название товара</span>
+                    <h4>цена</h4>
+                </div>
+                </div>
+            </section>
+            <section class="tabs">
+                    <div class="tabsSection">
+                        <input type="radio" name="nav" id="one" checked="checked"/>
+                        <label for="one">Характеристики</label>
+
+                        <input type="radio" name="nav" id="two"/>
+                        <label for="two">Отзывы</label>
+
+                        <input type="radio" name="nav" id="three"/>
+                        <label for="three">Описание</label>
+
+                        <article class="content one">
+                            <table class="responstable">
+
+                                <tr>
+
+                                    <td>Steve</td>
+                                    <td>Foo</td>
+                                    <td>01/01/1978</td>
+                                    <td>Policyholder</td>
+                                </tr>
+
+                                <tr>
+
+                                    <td>Steffie</td>
+                                    <td>Foo</td>
+                                    <td>01/01/1978</td>
+                                    <td>Spouse</td>
+                                </tr>
+
+                                <tr>
+
+                                    <td>Stan</td>
+                                    <td>Foo</td>
+                                    <td>01/01/1994</td>
+                                    <td>Son</td>
+                                </tr>
+
+                                <tr>
+
+                                    <td>Stella</td>
+                                    <td>Foo</td>
+                                    <td>01/01/1992</td>
+                                    <td>Daughter</td>
+                                </tr>
+
+                            </table>
+                            <div class="card">
+                                <figure>
+                                    <figurecaption>
+
+                                        <p class="is">В наличии</p>
+                                    </figurecaption>
+                                    <p><img src="./assets/img/300/Dynamic2.jpeg" alt="" width="200" height="200" /></p>
+                                </figure>
+                                <span>Название товара</span>
+                                <span><b>ЦЕНА: 500грн</b></span>
+                            </div>
+                        </article>
+
+                        <article class="content two">
+                            <h3>Where does it come from?</h3>
+                            <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
+                            <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.</p>
+                        </article>
+
+                        <article class="content three">
+                            <h3>Why do we use it?</h3>
+                            <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).</p>
+                        </article>
+                    </div>
+                <h4>Описание товара</h4>
+                <p>Lorem30</p>
+            </section>
+            <section class="comments" id="comments">
+                <button>Отзывы</button>
+                <button>Вопросы</button>
+                <button class="showAll">Оставить отзыв</button>
+                <div class="cardComment">
+                    <table class="commentCell">
+                    <tr>
+                        <td class="author">Steve</td>
+                        <td class="date">12-12-2017</td>
+                    </tr>
+                    <tr>
+                        <td class="commentText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur eaque fuga maiores tempore voluptatem? At eligendi possimus ratione repudiandae sapiente! </td>
+                    </tr>
+                    <tr>
+                        <td>Достоинства: </td>
+                        <td> Гого</td>
+                    </tr>
+                    <tr>
+                        <td>Недостатки: </td>
+                        <td> Гого</td>
+                    </tr>
+                        <tr>
+                            <td>1 ответ </td>
+                            <td>Ответить</td>
+                        </tr>
+                    </table>
+                    <h5>Оценка :</h5>
+                    <div class="rating">
+                        <input class="rating-gauge" type="range" min="0" max="5" readonly />
+
+                        <div class="rating-stars">
+                            <div class="rating-stars-placehold" >
+                                <span>1 </span>
+                                <span>2 </span>
+                                <span>3 </span>
+                                <span>4 </span>
+                                <span>5 </span>
+                            </div>
+                            <div class="rating-stars-slider">
+                                <span>1 </span>
+                                <span>2 </span>
+                                <span>3 </span>
+                                <span>4 </span>
+                                <span>5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardComment">
+                    <table class="commentCell">
+                        <tr>
+                            <td class="author">Steve</td>
+                            <td class="date">12-12-2017</td>
+                        </tr>
+                        <tr>
+                            <td class="commentText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto cum deleniti, dolor ea eius fugit itaque nobis nostrum obcaecati pariatur perspiciatis </td>
+                        </tr>
+                        <tr>
+                            <td>Достоинства: </td>
+                            <td> Всёё</td>
+                        </tr>
+                        <tr>
+                            <td>Недостатки: </td>
+                            <td> </td>
+                        </tr>
+                        <tr>
+                            <td>1 ответ </td>
+                            <td>Ответить</td>
+                        </tr>
+                    </table>
+                    <h5>Оценка :</h5>
+                    <div class="rating">
+                        <input class="rating-gauge" type="range" min="0" max="5" readonly />
+
+                        <div class="rating-stars">
+                            <div class="rating-stars-placehold" >
+                                <span>1 </span>
+                                <span>2 </span>
+                                <span>3 </span>
+                                <span>4 </span>
+                                <span>5 </span>
+                            </div>
+                            <div class="rating-stars-slider">
+                                <span>1 </span>
+                                <span>2 </span>
+                                <span>3 </span>
+                                <span>4 </span>
+                                <span>5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="cardComment">
+                    <table class="commentCell">
+                        <tr>
+                            <td class="author">Steve</td>
+                            <td class="date">Foo</td>
+                        </tr>
+                        <tr>
+                            <td class="commentText">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolore ducimus facilis ipsam laboriosam nemo odit sequi veritatis! Aut, excepturi laborum magnam maiores maxime nostrum quam quia repudiandae vel vero!</td>
+                        </tr>
+                        <tr>
+                            <td>Достоинства: </td>
+                            <td> Все</td>
+                        </tr>
+                        <tr>
+                            <td>Недостатки: </td>
+                            <td> Нету</td>
+                        </tr>
+                        <tr>
+                            <td>1 ответ </td>
+                            <td>Ответить</td>
+                        </tr>
+                    </table>
+                    <h5>Оценка :</h5>
+                    <div class="rating">
+                        <input class="rating-gauge" type="range" min="0" max="5" readonly />
+
+                        <div class="rating-stars">
+                            <div class="rating-stars-placehold" >
+                                <span>1 </span>
+                                <span>2 </span>
+                                <span>3 </span>
+                                <span>4 </span>
+                                <span>5 </span>
+                            </div>
+                            <div class="rating-stars-slider">
+                                <span>1 </span>
+                                <span>2 </span>
+                                <span>3 </span>
+                                <span>4 </span>
+                                <span>5 </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </section>
+            <section class="reviews">
+                <h4> Обзоры</h4>
+                <div class="videos">
+                    <iframe width="360" height="215" src="https://www.youtube.com/embed/53eu330MDWQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                    <iframe width="360" height="215" src="https://www.youtube.com/embed/mmIX39X2PHU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <div class="sertificates"></div>
+            </section>
+            <section class="sliderSection section BW">
+                <h4 class="nameSection">С этим товаром также покупают</h4>
+
+                <div class="tabsSection">
+
+                    <input type="radio" name="nav1" id="oneBW" checked="checked"/>
+                    <label for="oneBW">What</label>
+
+                    <input type="radio" name="nav1" id="twoBW"/>
+                    <label for="twoBW">Where</label>
+                    <input type="radio" name="nav1" id="threeBW"/>
+                    <label for="threeBW">Why</label>
+                    <article class="content oneBW">
+                        <a href="#" class="control_next">></a>
+                        <a href="#" class="control_prev"><</a>
+                        <div class="slider">
+                            <div class="card">
+                                <figure>
+                                    <figurecaption>
+                                        <p>Код товара</p><p class="is">В наличии</p>
+                                    </figurecaption>
+                                <img width="170"src="./assets/img/300/Farstone.jpeg" alt="" />
+                                </figure>
+                                <span>Название товара</span>
+                                <h4>цена</h4>
+
+                            </div>
+                            <div class="card">
+                                <figure>
+                                    <figurecaption>
+                                        <p>Код товара</p><p class="is">В наличии</p>
+                                    </figurecaption>
+                                <img width="170"src="./assets/img/300/15W-50.jpeg" alt="" />
+                                </figure>
+                                <span>Название товара</span>
+                                <h4>цена</h4>
+                            </div>
+                            <div class="card">
+                                <figure>
+                                    <figurecaption>
+                                        <p>Код товара</p><p class="is">В наличии</p>
+                                    </figurecaption>
+                                <img width="170"src="./assets/img/300/lucoile.jpeg" alt="" />
+                                </figure>
+                                <span>Название товара</span>
+                                <h4>цена</h4>
+
+                            </div>
+                            <div class="card">
+                                <figure>
+                                    <figurecaption>
+                                        <p>Код товара</p><p class="is">В наличии</p>
+                                    </figurecaption>
+                                <img width="170"src="./assets/img/300/mMOWToyota.jpg" alt="" />
+                                </figure>
+                                <span>Название товара</span>
+                                <h4>цена</h4>
+
+                            </div>
+                            <div class="card">
+                                <figure>
+                                    <figurecaption>
+                                        <p>Код товара</p><p class="is">В наличии</p>
+                                    </figurecaption>
+                                <img width="170"src="./assets/img/300/Mobil1.jpg" alt="" />
+                                </figure>
+                                <span>Название товара</span>
+                                <h4>цена</h4>
+                            </div>
+                        </div>
+                    </article>
+
+
+
+                    <article class="content twoBW">
+                        <a href="#" class="control_next">></a>
+                        <a href="#" class="control_prev"><</a>
+                        <div class="slider">
+                            <div class="card">
+                                <figure>
+                                    <figurecaption>
+                                        <p>Код товара</p><p class="is">В наличии</p>
+                                    </figurecaption>
+                                <img width="170"src="./assets/img/300/Motol.jpeg" alt="" />
+                                </figure>
+                                <span>Название товара</span>
+                                <h4>цена</h4>
+
+                            </div>
+                            <div class="card">
+                                <figure>
+                                    <figurecaption>
+                                        <p>Код товара</p><p class="is">В наличии</p>
+                                    </figurecaption>
+                                <img width="170"src="./assets/img/300/Petronas.jpeg" alt="" />
+                                </figure>
+                                <span>Название товара</span>
+                                <h4>цена</h4>
+                            </div>
+                            <div class="card">
+                                <figure>
+                                    <figurecaption>
+                                        <p>Код товара</p><p class="is">В наличии</p>
+                                    </figurecaption>
+                                <img width="170"src="./assets/img/300/XTC.jpeg" alt="" />
+                                </figure>
+                                <span>Название товара</span>
+                                <h4>цена</h4>
+
+                            </div>
+                            <div class="card">
+                                <figure>
+                                    <figurecaption>
+                                        <p>Код товара</p><p class="is">В наличии</p>
+                                    </figurecaption>
+                                <img width="170"src="./assets/img/300/ShellHelix.jpg" alt="" />
+                                </figure>
+                                <span>Название товара</span>
+                                <h4>цена</h4>
+
+                            </div>
+                            <div class="card">
+                                <figure>
+                                    <figurecaption>
+                                        <p>Код товара</p><p class="is">В наличии</p>
+                                    </figurecaption>
+                                <img width="170"src="./assets/img/300/Petronas.jpeg" alt="" />
+                                </figure>
+                                <span>Название товара</span>
+                                <h4>цена</h4>
+                            </div>
+                        </div>
+                    </article>
+
+                    <article class="content threeBW">
+                        <a href="#" class="control_next">></a>
+                        <a href="#" class="control_prev"><</a>
+
+                        <div class="slider">
+                            <div class="card">
+                                <figure>
+                                    <figurecaption>
+                                        <p>Код товара</p><p class="is">В наличии</p>
+                                    </figurecaption>
+                                <img width="170"src="./assets/img/300/15W-50.jpeg" alt="" />
+                                </figure>
+                                <span>Название товара</span>
+                                <h4>цена</h4>
+
+                            </div>
+                            <div class="card">
+                                <figure>
+                                    <figurecaption>
+                                        <p>Код товара</p><p class="is">В наличии</p>
+                                    </figurecaption>
+                                <img width="170"src="./assets/img/300/lucoile.jpeg" alt="" />
+                                </figure>
+                                <span>Название товара</span>
+                                <h4>цена</h4>
+                            </div>
+                            <div class="card">
+                                <figure>
+                                    <figurecaption>
+                                        <p>Код товара</p><p class="is">В наличии</p>
+                                    </figurecaption>
+                                <img width="170"src="./assets/img/300/Motol.jpeg" alt="" />
+                                </figure>
+                                <span>Название товара</span>
+                                <h4>цена</h4>
+
+                            </div>
+                            <div class="card">
+                                <figure>
+                                    <figurecaption>
+                                        <p>Код товара</p><p class="is">В наличии</p>
+                                    </figurecaption>
+                                <img width="170"src="./assets/img/300/Mobil1.jpg" alt="" />
+                                </figure>
+                                <span>Название товара</span>
+                                <h4>цена</h4>
+
+                            </div>
+                            <div class="card">
+                                <figure>
+                                    <figurecaption>
+                                        <p>Код товара</p><p class="is">В наличии</p>
+                                    </figurecaption>
+                                <img width="170"src="./assets/img/300/Farstone.jpeg" alt="" />
+                                </figure>
+                                <span>Название товара</span>
+                                <h4>цена</h4>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <section class="sliderSection section">
+                <h4 class="nameSection">Покупатели выбирают для :</h4>
+                <p>
+                    <select class="turnintodropdown">
+                        <option>Golf</option>
+                        <option>Audy</option>
+                        <option>Mersedes</option>
+                        <option>Pegeot</option>
+                        <option>Kia</option>
+                    </select>
+                </p>
+                <a href="#" class="control_next">></a>
+                <a href="#" class="control_prev"><</a>
+
+                <div class="slider">
+                <div class="card">
+                    <figure>
+                        <figurecaption>
+                            <p>Код товара</p><p class="is">В наличии</p>
+                        </figurecaption>
+                    <img width="170"src="./assets/img/300/15W-50.jpeg" alt="" />
+                    </figure>
+                    <span>Название товара</span>
+                    <h4>цена</h4>
+
+                </div>
+                <div class="card">
+                    <figure>
+                        <figurecaption>
+                            <p>Код товара</p><p class="is">В наличии</p>
+                        </figurecaption>
+                    <img width="170"src="./assets/img/300/ShellHelix.jpg" alt="" />
+                    </figure>
+                    <span>Название товара</span>
+                    <h4>цена</h4>
+
+                </div>
+                <div class="card">
+                    <figure>
+                        <figurecaption>
+                            <p>Код товара</p><p class="is">В наличии</p>
+                        </figurecaption>
+                    <img width="170"src="./assets/img/300/XTC.jpeg" alt="" />
+                    </figure>
+                    <span>Название товара</span>
+                    <h4>цена</h4>
+
+                </div>
+                <div class="card">
+                    <figure>
+                        <figurecaption>
+                            <p>Код товара</p><p class="is">В наличии</p>
+                        </figurecaption>
+                    <img width="170"src="./assets/img/300/lucoile.jpeg" alt="" />
+                    </figure>
+                    <span>Название товара</span>
+                    <h4>цена</h4>
+
+                </div>
+                <div class="card">
+                    <figure>
+                        <figurecaption>
+                            <p>Код товара</p><p class="is">В наличии</p>
+                        </figurecaption>
+                    <img width="170"src="./assets/img/300/mMOWToyota.jpg" alt="" />
+                    </figure>
+                    <span>Название товара</span>
+                    <h4>цена</h4>
+                </div>
+                </div>
+            </section>
+            <section class="sliderSection  section">
+                <h4 class="nameSection">Вы просматривали</h4>
+                <a href="#" class="control_next">></a>
+                <a href="#" class="control_prev"><</a>
+                <div class="slider">
+                <div class="card">
+                    <figure>
+                        <figurecaption>
+                            <p>Код товара</p><p class="is">В наличии</p>
+                        </figurecaption>
+                    <img width="170"src="./assets/img/300/ShellHelix.jpg" alt="" />
+                    </figure>
+                    <span>Название товара</span>
+                    <h4>цена</h4>
+
+                </div>
+                <div class="card">
+                    <figure>
+                        <figurecaption>
+                            <p>Код товара</p><p class="is">В наличии</p>
+                        </figurecaption>
+                    <img width="170"src="./assets/img/300/Petronas.jpeg" alt="" />
+                    </figure>
+                    <span>Название товара</span>
+                    <h4>цена</h4>
+
+                </div>
+                <div class="card">
+                    <figure>
+                        <figurecaption>
+                            <p>Код товара</p><p class="is">В наличии</p>
+                        </figurecaption>
+                    <img width="170"src="./assets/img/300/XTC.jpeg" alt="" />
+                    </figure>
+                    <span>Название товара</span>
+                    <h4>цена</h4>
+
+                </div>
+                <div class="card">
+                    <figure>
+                        <figurecaption>
+                            <p>Код товара</p><p class="is">В наличии</p>
+                        </figurecaption>
+                    <img width="170"src="./assets/img/300/Petronas.jpeg" alt="" />
+                    </figure>
+                    <span>Название товара</span>
+                    <h4>цена</h4>
+
+                </div>
+                <div class="card">
+                    <figure>
+                        <figurecaption>
+                            <p>Код товара</p><p class="is">В наличии</p>
+                        </figurecaption>
+                    <img width="170"src="./assets/img/300/Mobil1.jpg" alt=""/>
+                    </figure>
+                    <span>Название товара</span>
+                    <h4>цена</h4>
+                </div>
+                </div>
+            </section>
+        </artical>
+    </main>
+    <footer>
+        <div class="infoFooter">
+            <ul>
+                <li><h4>Каталог</h4></li>
+                <li>Электроника</li>
+                <li>Звук</li>
+                <li>Видео</li>
+                <li>Запчасти ирасходники</li>
+            </ul>
+            <ul>
+                <br>
+                <h5></h5>
+                </br>
+                <li>Багаж и крепления</li>
+                <li>Автохимия</li>
+                <li>Технопомощь</li>
+                <li>Туризм</li>
+            </ul>
+            <ul>
+                <li><h4>Компания</h4></li>
+                <li>О Нас</li>
+                <li>Контакты</li>
+                <li>Магазин</li>
+                <li>Партнёры</li>
+            </ul>
+            <ul>
+                <li><h4><b>Покупателям</b></h4></li>
+                <li>Доставка</li>
+                <li>Оплата</li>
+                <li>Гарантия</li>
+                <li>Акции</li>
+            </ul>
+        </div>
+        <footer class="footer">
+            <p><time datetime="2018-02-27">2018</time>, База автозвука</p>
+            <p>Разработано в <b>Digital Origin</b></p>
+            </footer>
+        <div class="social">
+            <h3><b>0 800 30-15-05</b></h3>
+            <p>Бесплатно со всех стационарных и мобильных телефонов Украины</p>
+            <p>Сдедите за нами в соцсетях</p>
+            <div class="icons">
+                <span class="soc_ico_vk"></span>
+                <span class="soc_ico_G"></span>
+                <span class="soc_ico_Face"></span>
+                <span class="soc_ico_Tw"></span>
+                <span class="soc_ico_Yut"></span>
+                <span class="soc_ico_Mail"></span>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
